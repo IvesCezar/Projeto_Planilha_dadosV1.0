@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    background-color: #fdf8f5; 
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#formulario {
+    background: #ffffff;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 16px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    text-align: center;
+}
+
+#formulario h1 {
+    color: #e07a5f; 
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 16px;
+    border: 1.5px solid #e8e8e8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 15px;
+    color: #333333;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #e07a5f; 
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(224, 122, 95, 0.15);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #81b29a; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #6a9a82; 
+}
+
+button:active {
+    transform: scale(0.98); 
+}
+
+#aviso {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #e07a5f; 
+    min-height: 20px;
+}

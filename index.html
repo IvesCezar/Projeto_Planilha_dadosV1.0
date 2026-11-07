@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Pets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <form id="formulario">
+        <h1>Adoção de Pets 🐾</h1>
+        
+        <input type="text" name="nome" placeholder="Seu Nome Completo" required>
+        <input type="email" name="email" placeholder="Seu E-mail" required>
+        <input type="tel" name="telefone" placeholder="Telefone/WhatsApp" required>
+        
+        <select name="tipo_pet" required>
+            <option value="" disabled selected>Qual tipo de pet deseja adotar?</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <textarea name="mensagem" placeholder="Por que você seria um bom tutor? (Fale sobre sua casa e rotina)" rows="4" required></textarea>
+        
+        <button type="submit">QUERO ADOTAR</button>
+        
+        <p id="aviso"></p>
+    </form>
+
+</body>
+</html>
